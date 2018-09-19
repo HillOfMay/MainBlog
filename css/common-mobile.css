@@ -1,0 +1,40 @@
+html {
+  box-sizing: content-box;
+  background-color: #F6F6F6;
+}
+
+img,.contact-bar{
+    max-width: 100%;
+    height: auto;
+}
+
+
+header{
+    padding:3%;
+} 
+
+#logo-short{
+    display: flex;
+    max-height: 85px;
+}
+
+@media(min-width:600px){
+    header{
+        width:1000px;
+        height: 125px;
+        padding: 20px;
+        padding-left: 10%;
+    }
+    #logo-short{
+        height: 85px;
+    }
+}
+
+#logo-long {
+    display: none;
+}
+
+.contact-bar{
+    background-color: #585959;
+    
+}

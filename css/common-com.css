@@ -1,0 +1,37 @@
+html {
+  box-sizing: content-box;
+  background-color: #F6F6F6;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+header{
+    width:960px;
+    height: 120px;
+    padding: 20px;
+    padding-left: 10%;
+ }
+ 
+
+#logo-long {
+    height: 80px;
+}
+
+#logo-short{
+    display: none;
+}
+
+.contact-bar{
+    padding-top:0.5%;
+    background-color: #585959;
+    margin-right: 1%;
+    margin-left: 1%;
+}
+.cnicons svg{
+    color:#ffffff;
+    width:30px;
+    height:30px;
+}
